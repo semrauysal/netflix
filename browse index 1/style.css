@@ -1,0 +1,81 @@
+
+
+
+
+.header {
+ width: 100%;
+ height: 100vh;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)), url(images/arkaplan.jpg);
+}
+.nav-link::before{
+  content:url(images/world.png);
+}
+.header-content{
+  height: 70vh;
+  
+}
+
+.header-row{
+  display: flex;
+  align-items:center ;
+  height: 60vh;
+ width:65%;
+}
+
+
+body{
+  background-color: black;
+}
+
+
+section{
+  background-color: black;
+  border-top:grey solid 7px;
+}
+.nav-item{
+  border: wheat solid 1px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.accordion-button{
+  background-color: gray !important;
+  color:white !important;
+}
+.accordion-button:not(.collapsed){
+  background-color: gray !important;
+  color:white !important;
+  border: none !important;
+}
+
+.accordion-button:focus{
+  box-shadow: none !important;
+}
+.accordion-collapse{
+  background-color: gray !important;
+}
+
+.accordion-item{
+  border:4px solid black !important;
+  
+}
+
+.col-4 ul li a{
+  color:azure;
+}
+
+footer{
+  border-top:grey solid 7px;
+}
+
+.ilk-navbar ul li{
+  margin-left: 30px;
+}
+
+.ilk-navbar ul li a{
+  text-decoration: none;
+  color:white;
+}
