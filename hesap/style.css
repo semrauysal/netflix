@@ -1,0 +1,35 @@
+.ilk-navbar ul li {
+    margin-left:30px;
+}
+
+.ilk-navbar ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.drop{
+    margin-left:500px;
+    margin-top:55px;
+}
+.dropdown-menu.show {
+    background-color: gray;
+}
+
+.footer-ul ul li a {
+    color:azure;
+}
+
+.section-container{
+    background-color: azure;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.section-content{
+    width:90%;
+
+}
+.section-col a{
+    text-decoration: none;
+}
+
